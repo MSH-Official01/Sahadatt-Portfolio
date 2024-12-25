@@ -1,0 +1,38 @@
+
+
+
+* {
+    font-family: 'Courgette', cursive;
+}
+
+
+div {
+    width: 300px;
+    background: blue;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+div[type="submit"]:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+
+
+.p {
+    width: 300px;
+    background: antiquewhite;
+    color: blueviolet;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+

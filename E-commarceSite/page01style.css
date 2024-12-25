@@ -1,0 +1,62 @@
+body {
+    background-color: blanchedalmond;
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-family: Lucida Calligraphy, sans-serif;
+    color: blue;
+}
+
+lable {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+    color: blueviolet;
+    font-size: 22px;
+}
+
+input {
+    width: 90%;
+    padding: 10px 2%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    background: aqua;
+    border: 1px solid aqua;
+    width: 200px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+
+
+.search_form {
+    width: 100%;
+    max-width: 500%;
+    margin: 20px auto;
+}
+
+.search_form input {
+    width: 60%;
+    float: left;
+}
+
+.search_form input[type="submit"] {
+    width: 30%;
+    float: left;
+    padding: 7px 3%;
+}
+

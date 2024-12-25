@@ -1,0 +1,44 @@
+body {
+    background-color: ghostwhite;
+}
+
+h1 {
+    color: darkviolet;
+    font-family: sans-serif;
+}
+
+ul {
+    color: ;
+}
+
+li {
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+div.delivary {
+    color: darkblue;
+}
+
+div.delivary1 {
+    color: darkolivegreen;
+}
+
+button {
+    background: gold;
+    color: darkgreen;
+    border: 1px solid red;
+    width: 100px;
+    font-family: Cooper Black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: px;
+
+}
+
+Button[type="submit"]:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
